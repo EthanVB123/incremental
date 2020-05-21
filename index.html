@@ -2,12 +2,18 @@
 <html>
     <head>
         <link rel='stylesheet' href='styles.css'>
-        <script src='script.js'></script>
+        <script defer src='script.js'></script>
         <title>Untitled Incremental</title>
     </head>
     <body>
+        <div style='text-align: center;'>
         <h1>Generic Incremental Game! Presented by Ethan van Bruchem</h1>
-        <h2>This run's score is: 0</h2>
+        <h2 class='pointsdisplay'>This run's score is: 0</h2>
         <h2>You have 5 seconds remaining</h2>
+        </div>
+        <button class='gainpointsbtn' type='button'>Click to gain Points!</button>
+        <div class='bigpadding'></div>
+        <h2>You have 0 upgrade points!</h2>
+        <button class='timeupgradebtn'>Time up 1 second. Cost: 5 points.</button>
     </body>
 </html>
